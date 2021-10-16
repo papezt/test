@@ -21,7 +21,7 @@ spec:
       terminationGracePeriodSeconds: 35
       containers:
         - name: frontend-api
-          image: CONTAINER_IMAGE
+          image: nginx
           imagePullPolicy: Always
           resources:
             requests:
