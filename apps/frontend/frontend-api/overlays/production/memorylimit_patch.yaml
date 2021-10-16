@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react
+spec:
+  template:
+    spec:
+      containers:
+        - name: react
+          resources:
+            limits:
+              memory: 15G
+            requests:
+              memory: 15G
